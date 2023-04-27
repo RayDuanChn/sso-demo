@@ -30,5 +30,7 @@ oauth2的nodejs实现
 
 项目包含 client 和 server 两个文件夹，分别对应客户端和服务端
 
+分别启动客户端和服务端， 浏览器中输入： http://localhost:8001/
+
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
