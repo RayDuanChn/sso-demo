@@ -3,6 +3,9 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
-  await app.listen(8082);
+  const port = 8082;
+  await app.listen(port, () => {
+    console.log(`SSO-Server is running at port ${port}`);
+  });
 }
 bootstrap();
