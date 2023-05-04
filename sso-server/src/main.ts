@@ -6,7 +6,7 @@ async function bootstrap() {
 
   const port = 8081;
   await app.listen(port, () => {
-    console.log(`SSO-Server is running at port ${port}`);
+    console.log(`sso server is running at port ${port}`);
   });
 }
 

@@ -5,7 +5,7 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const port = 8083;
   await app.listen(port, () => {
-    console.log(`SSO-Server is running at port ${port}`);
+    console.log(`sso client B is running at port ${port}`);
   });
 }
 bootstrap();
